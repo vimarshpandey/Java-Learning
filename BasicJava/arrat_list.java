@@ -6,7 +6,7 @@ public class arrat_list
     {
         ArrayList<String> car = new ArrayList<String>();
 
-        car.add("Honda");
+        car.add("Kia");
         car.add("Suzuki");
 
         car.set(1, "Lambo");
