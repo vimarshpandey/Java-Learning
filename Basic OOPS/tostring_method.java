@@ -3,7 +3,7 @@ class Car
     String name = "Mustang";
     int price = 1000001;
 
-    public String toString()  //
+    public String toString()
     {
         String mystr = name + "\n" + price;
         return mystr;

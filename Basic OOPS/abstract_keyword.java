@@ -1,10 +1,12 @@
 abstract class furniture       // abstract class, cannot instanciate an obj of this class
 {
     String name;
+    int legs;
 
-    furniture(String n)
+    furniture(String n, int l)
     {
         this.name = n;
+        this.legs = l;
     }
 
     abstract void price();
@@ -14,9 +16,9 @@ class chair extends furniture
 {
     String material;
 
-    chair(String n, String m)
+    chair(String n, String m, int l)
     {
-        super(n);
+        super(n, l);
         this.material = m;
     }
 
@@ -31,7 +33,7 @@ public class abstract_keyword
 {
     public static void main(String[] args)
     {
-        chair c1 = new chair("Recliner", "Plastic");
+        chair c1 = new chair("Recliner", "Plastic", 4);
 
         c1.price();
     }    
