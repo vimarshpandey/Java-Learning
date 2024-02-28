@@ -20,6 +20,7 @@ class Dice
 
 public class local_global_var
 {
+    @SuppressWarnings("unused")
     public static void main(String[] args)
     {
         Dice dice = new Dice();
