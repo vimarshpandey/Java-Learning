@@ -28,6 +28,21 @@ public class array
             System.out.println(salary[i]);
         }
 
+        for(int i = 0; i < n; i++)
+        {
+            for(int j = i + 1; j < n; j++)
+            {
+                if(salary[i] == salary[j])
+                {
+                    System.out.println(salary[i]);
+                }
+                else
+                {
+                    
+                }
+            }
+        }
+
         scan.close();
-    }    
+    }
 }
